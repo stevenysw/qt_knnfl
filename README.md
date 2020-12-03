@@ -3,7 +3,7 @@ Steven Siwei Ye and Oscar Hernan Madrid Padilla. Non-parametric quantile regress
 
 # Codes
 *  linear programming 
-*  ADMM
+*  ADMM and ADMM with BIC model selection
 *  Majorize-Minimize
 
 # Datasets 
