@@ -1,2 +1,6 @@
-# qt_knnfl
-Dataset and codes used in "Non-parametric quantile regression via K-NN fused lasso"
+# Citation
+Steven Siwei Ye and Oscar Hernan Madrid Padilla. Non-parametric quantile regression via the K-NN fused lasso.
+
+# Datasets 
+*  California housing data
+*  Chicago crime data
