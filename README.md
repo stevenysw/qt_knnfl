@@ -1,5 +1,5 @@
 # Citation
-Steven Siwei Ye and Oscar Hernan Madrid Padilla. Non-parametric quantile regression via the K-NN fused lasso.
+Steven Siwei Ye and Oscar Hernan Madrid Padilla. *Non-parametric quantile regression via the K-NN fused lasso.* **To appear in Journal of Machine Learning Research.**
 
 # Codes
 *  linear programming 
