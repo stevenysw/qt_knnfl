@@ -24,7 +24,7 @@ function [theta_opt] = qt_knn_admm_bic(X, y, K, tau, Niter, lambda)
     theta = zeros(length(lambda),n);
     bic = zeros(1,length(lambda));
     for j = 1:length(lambda)
-        theta(j,:) =  qt_knn_admm(X, y, K, tau, lambda(j), Niter);
+        theta(j,:) =  qt_knn_admm(X, y, K, lambda(j), tau, Niter);
 
         r = y - theta(j,:);
         idx = find(abs(D*theta(j,:)') < 1e-1);
