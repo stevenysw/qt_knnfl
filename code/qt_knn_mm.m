@@ -29,7 +29,7 @@ function [theta, iter] = qt_knn_mm(X, y, K, lambda, Niter)
         w2 =1./((abs(theta_prev(edgeunique(:,1)) - theta_prev(edgeunique(:,2))))+eps);
         w2 = sparse(1:num_edge,1:num_edge, min(5,w2),num_edge,num_edge);
         
-        A= w1+lambda*D'*w2*w2*D;
+        A= w1+lambda*D'*w2*D;
         b= w1*y';
         theta = A\b;
         theta = theta';
